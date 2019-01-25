@@ -103,7 +103,6 @@ for animal in animals:
   total_weight = total_weight + animal.weight
 print('\nTotal weight of animals:', format(total_weight, '.2f'))
 
-
 for animal in animals:
   if heaviest_animal is None:
     heaviest_animal = animal
